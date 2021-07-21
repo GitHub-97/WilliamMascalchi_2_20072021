@@ -6,6 +6,19 @@
     font-family : 'Raleway', sans-serif ;
 }
 
+main, .central{
+    margin-top: 20px;
+}
+
+main, .footer{
+    max-width: 1170px;
+    margin: auto;
+}
+
+header, .top{
+    margin: 20px 40px;
+}
+
 h1, h2{
     font-size: 1.2rem;
     margin-bottom: 20px;
@@ -53,4 +66,126 @@ i[class~="fa-info"]{
     border: 1px solid #ccc;
     border-radius: 50%;
 }
-    
+
+/* Hotels */
+
+.Hotels{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #999;
+}
+
+.Hotels span{
+    font-weight: bold;
+}   
+
+/* HotelDescription */
+
+.HotelDescription{
+    margin-left: 15px;
+}
+
+/* Header */
+
+header, .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex{
+    flex: 1;
+}
+
+/* Navigation */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding: 0 20px;
+    line-height: 40px;
+}
+
+nav li a:hover,
+nav li a:active{
+    display: block;
+    margin-top: -1px;
+    color: #0065fc;
+    border-top: 1px solid #0065fc;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Signup */
+
+.Signup{
+    display: flex;
+    align-items: center;
+}
+
+.Signup a{
+    font-weight: bold;
+    color: #0065FC;
+}
+
+/* Search */
+
+label{
+    display: block;
+    line-height: 40px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+i.fa-map-marker-alt{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    background: #eee;
+    border-radius: 10px 0 0 10px;
+}
+
+i.fa-search{
+    width: 40px;
+    margin-left: -45px;
+    color: #fff;
+}
+
+input{
+    display: block;
+    padding-left: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+button{
+    padding: 0 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    background: #0065fc;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.searchInput::placeholder{
+    color: #000000;
+}
