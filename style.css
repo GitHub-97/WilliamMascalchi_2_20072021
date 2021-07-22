@@ -33,8 +33,9 @@ p{
     font-size: 0.75em;
 }
 
-a{
+a {
     color: #333;
+    text-decoration: none;
 }
 
 a:hover{
@@ -128,14 +129,14 @@ ul{
 
 /* Signup */
 
-.Signup{
+.signUp {
     display: flex;
     align-items: center;
 }
 
-.Signup a{
+.signUp a {
     font-weight: bold;
-    color: #0065FC;
+    color: #0065fc;
 }
 
 /* Search */
@@ -189,3 +190,93 @@ button{
 .searchInput::placeholder{
     color: #000000;
 }
+
+/* Filtre */
+
+.Filter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.Filter p{
+    margin: 8px 20px 0 0;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.Filter i{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    padding-top: 12px;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 50%
+}
+
+.Filter ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.Filter li{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.Filter li:hover{
+    background: #deebff;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hebergements */
+
+#hebergements{
+    max-width: 780px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    flex: 1;
+}
+
+#hebergements h2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#hebergements p.showMore{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold; 
+}
+
+.hebergements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.hebergements .Hotels{
+    padding: 5px;
+    background: #fff;
+}
+
+.hebergements img{
+    height: 100%;
+    width: 190px;
+    max-height: 90px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
