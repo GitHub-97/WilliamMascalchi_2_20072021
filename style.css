@@ -278,5 +278,137 @@ button{
     border-radius: 10px 10px 0 0;
 }
 
+/* Populaires */
 
+#populaires{
+    width: 340px;
+    border-radius: 10px;
+    background: #f2f2f2;
+}
 
+#populaires h2{
+    display: inline-block;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#populaires i.fa-chart-line{
+    color: black;
+}
+
+.populaires{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.populaires img{
+    height: 110px;
+    width: 100%;
+    max-width: 100px;
+    border-radius: 10px 0 0 10px;
+}
+
+.populaires .Hotels{
+    max-width: 270px;
+    padding: 5px;
+    background: #fff;
+}
+
+.populaires .Hotels a{
+    display: flex;
+}
+
+.populaires .HotelDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+/* Activites */
+
+#activities{
+    margin-top: 40px;
+}
+
+.activitiesTab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activitiesTab h3{
+    margin-left: 15px;
+    line-height: 3em;
+}
+
+.activitiesTab .activityFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activitiesTab img{
+    height: 100%;
+    width: 240px;
+    border-radius: 10px 10px 0 0;
+}
+
+.activitiesTab .large img{
+    max-height: 320px;
+}
+
+.activitiesTab .medium1 img{
+    max-height: 150px;
+}
+
+.activitiesTab .medium2 img{
+    max-height: 126px;
+}
+
+.activitiesTab .small1 img{
+    max-height: 90px;
+}
+
+.activitiesTab .small2 img{
+    max-height: 114px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #f2f2f2;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    width: 340px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+footer li {
+    line-height: 2em;
+}
+
+footer a:hover{
+    font-weight: 600;
+    color: #0065FC;
+}
+
+footer{
+    flex: 1;
+}
